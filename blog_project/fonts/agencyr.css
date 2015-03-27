@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AgencyFBRegular';
+    src: url('agencyr.eot');
+    src: url('agencyr.eot') format('embedded-opentype'),
+         url('agencyr.woff') format('woff'),
+         url('agencyr.ttf') format('truetype'),
+         url('agencyr.svg#AgencyFBRegular') format('svg');
+}

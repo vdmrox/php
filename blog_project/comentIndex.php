@@ -1,0 +1,5 @@
+<div>
+    <?php
+    	postExibicaoComent();
+    ?>
+</div>

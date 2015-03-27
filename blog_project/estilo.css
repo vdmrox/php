@@ -1,0 +1,102 @@
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+h2 {
+	text-align:center;
+	color:#333;
+	line-height:50px;
+}
+p {
+	padding:10px;
+}
+#adminConteudo {
+	width:899px;
+	margin:auto;
+	border:1px solid #333;
+	overflow:auto;
+}
+#adminCabecalho {
+	width:899px;
+	float:left;
+	height:80px;
+	color:#09C;
+	font-size:24px;
+	text-align:center;
+	line-height:80px;
+	background-color:#F2F2F2;
+}
+#adminUsuario {
+	width:889px;
+	float:left;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	padding-right:10px;
+	color:#06F;
+	text-align:right;
+	background-color:#F2F2F2;
+	border-bottom:1px solid #333;
+}
+#adminUsuario input {
+	cursor:pointer;
+}
+.adminMenu {
+	width:299px;
+	background-color:#DBEEFD;
+	color:#000;
+	float:left;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	font-size:24px;
+	border-bottom:1px solid #333;
+}
+.tabela {
+	background-color:#F0F0F0;
+	color:#666;
+	font-size:24px;	
+	border:1px solid #333;
+	padding:5px;
+}
+.grupo {
+	padding-right:10px;
+}
+.grupoL{
+	padding-left:10px;
+}
+.conteudo {
+	margin:auto;
+	text-align:center;
+	width:70%;
+}
+h1 {
+	font:Verdana, Geneva, sans-serif;
+	font-size:36px;
+}
+a {
+	text-decoration:none;
+	color:#00C;
+}
+a:hover {
+	text-decoration:underline;
+}
+.alteraUsuario {
+	width:450px;
+	margin:auto;
+	text-align:left;
+	border:1px solid #333;
+	padding:15px;
+}
+.alteraPost{
+	width:670px;
+	margin:auto;
+	text-align:left;
+	border:1px solid #333;
+	padding:15px;
+}
+.alteraPost tr{
+	height:30px;
+}

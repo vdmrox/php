@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'AgencyFBRegular';
+    src: url('agencyr.eot');
+    src: url('agencyr.eot') format('embedded-opentype'),
+         url('agencyr.woff') format('woff'),
+         url('agencyr.ttf') format('truetype'),
+         url('agencyr.svg#AgencyFBRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('opensans-regular.eot');
+    src: url('opensans-regular.eot') format('embedded-opentype'),
+         url('opensans-regular.woff') format('woff'),
+         url('opensans-regular.ttf') format('truetype'),
+         url('opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+
+	/* Início coluna da esquerda */
+	
+	body{
+		background-image:url(imagens/bkg_blog2.jpg);
+		background-repeat:repeat;
+	}
+	#blog{
+		width:970px;
+		margin:auto;
+		margin-top:-10px;
+	}
+	#leftcol{
+		width:630px;
+		float:left;
+	}
+	#menu{
+		width:620px;
+		height:54px;
+		margin:0px 0px 0px 10px;
+		font-family:"Agency FB";
+		font-size:24px;
+		color:#FFF;
+	}
+	#menuleft, #menuright{
+		float:left;
+		width:20px;
+		height:54px;
+		background-image:url(imagens/menu_side.png);
+		background-repeat:no-repeat;
+	}
+	#menucenter{
+		float:left;
+		width:580px;
+		height:54px;
+		background-image:url(imagens/menucenter.png);
+		background-repeat:no-repeat;
+	}
+	#menucenter ul{
+		list-style:none;
+		display:inline;
+	}
+	#menucenter ul li{
+		float:left;
+		padding:12px 20px;
+		display: block;
+		position: relative;
+	}
+
+	#menucenter ul li a:link{
+		display: block;
+		float: left;
+		text-decoration:none;
+		color:#FFF;
+	}
+	#menucenter a:visited{
+		text-decoration:none;
+		color:#FFF;
+	}
+	#menucenter li:hover, #menucenter ul li a:hover{
+		text-decoration:none;
+		background-color:#F90;
+	}
+	#menucenter ul li:hover > ul{
+		display:block;
+	}
+	#menucenter ul li ul{
+		width:80px;
+		background-color: #F90;
+		display: none;
+		float: none;
+    	position: absolute;
+    	z-index: 10;
+    	left: 0;
+	}
+	#menucenter ul li ul li a{
+		margin-left: -30px;
+	}
+	#menucenter ul li ul a:hover{
+		background-color: #FF5800;
+	}
+	#container{
+		background-image:url(imagens/boxconteudo_bkg.jpg);
+		float:left;
+		width:620px;
+		margin:0px 0px 0px 10px;
+	}
+	.postagem{
+		margin:30px 0px 0px 30px;
+	}
+	.boxdata{
+		float:left;
+		width:75px;
+		height:110px;
+		margin-top:20px;
+		background-image:url(imagens/data_bkg.png);
+		background-repeat:no-repeat;
+
+	}
+	.boxdata .datainfo{
+		line-height:25px;
+		position:relative;
+		top:10px;
+		text-align:center;
+		font-family:"Agency FB";
+		font-size:30px;
+		font-weight:bold;
+		color:#FFF;
+		text-shadow:#000 1px 1px;
+	}
+	.boxconteudo{
+		background-color:#FFF;
+		margin-left:85px;
+		width:474px;
+		padding-bottom:35px;
+	}
+	#linhatopo{
+		width:474px;
+		height:8px;
+		background-image:url(imagens/linha_topo.png);
+	}
+	.postit{
+		margin-left:10px;
+		margin-top:30px;
+		margin-bottom:-15px;
+		height:78px;
+		vertical-align:middle;
+		line-height:35px;
+		font-weight:bold;
+		font-family:"Agency FB";
+		font-size:35px;
+		color:#61553D;
+	}
+	.postinfo ul{
+		list-style:none;
+		display:inline;
+	}
+	.postinfo li{
+		float:left;
+		padding:0px 10px 10px 10px;
+		color:#61553D;
+		font-family:"Open Sans";
+		font-size:12px;
+	}
+	.postautor span, .posthora span, .postcat span{
+		position:relative;
+		top:2px;
+	}
+	.postcontent{
+		clear:both;
+		font-family:"OpenSans-Regular";
+		font-size:12px;
+		color:#5F533D;
+		margin-left:12px;
+		margin-right:12px;
+		text-align:justify;
+		margin-bottom:30px;
+	}
+	.postfooter{
+		margin-left:85px;
+		margin-top:-31px;
+		width:474px;
+		height:97px;
+		background-image:url(imagens/image009.png);
+	}
+	.email, .comments, .likes{
+		float:left;
+		padding:30px 65px;
+	}
+	.bread{
+		letter-spacing:3px;
+		margin-left:30px;
+		margin-top:30px;
+		font-family:"Open Sans";
+		font-size:9px;
+		color:#5F533D;
+	}
+	.pagecontent{
+		clear:both;
+		font-family:"Open Sans";
+		font-size:12px;
+		color:#5F533D;
+		margin-left:18px;
+		margin-right:40px;
+		text-align:justify;
+		margin-bottom:30px;
+	}
+	.extrafield{
+		padding-left:15px;
+		padding-top:10px;
+		font-family:"Open Sans";
+		font-size:12px;
+	}
+	.extrafield label{
+		margin-left:3px;
+	}
+	/* Fim coluna da esquerda */
+	
+	/* Início coluna da direita */
+	
+	#rightcol{
+		float:left;
+		margin-top:20px;
+		width:330px;
+		text-align:center;
+	}
+	#resumo h2, #login h2, #busca h2, #categorias h2{
+		margin:40px 0px 0px 16px;
+		font-family:"Agency FB";
+		color:#FFF;
+		text-shadow:#5F523D 1px 1px;
+		text-align:left;
+	}
+	.wtext{
+		width:300px;
+		font-family:"Open Sans";
+		font-size:12px;
+		color:#5F523D;
+		margin:10px 0px 0px 16px;
+		text-align:justify;
+	}
+	.wtext a:link{
+		text-decoration:none;
+		color:#5F523D;
+	}
+	.wtext a:hover{
+		border-bottom:dashed 1px #5F523D;
+	}
+	.wtext a:visited{
+		color:#5F523D;
+	}
+	.formtxt input{
+		width:256px;
+		height:37px;
+		margin:10px -20px 0px 16px;
+		background-image:url(imagens/image011.png);
+		background-repeat:no-repeat;
+		background-color:transparent;
+		border:hidden;
+		padding:0px 0px 0px 20px;
+		font-family:"Open Sans";
+		font-size:15px;
+		font-style:italic;
+		color:#D6CCBE;
+	}
+	
+	.formbtn input{
+		width:37px;
+		height:37px;
+		margin-top:10px;
+		background-image:url(imagens/image010.png);
+		background-repeat:no-repeat;
+		background-color:transparent;
+		border:hidden;
+		text-align:left;
+	}
+	.btnarea{
+		padding-left:15px;
+	}
+	.formenvia{
+		width:102px;
+		height:37px;
+		margin-top:10px;
+		background-image:url(imagens/contato_btn.png);
+		background-repeat:no-repeat;
+		background-color:transparent;
+		border:hidden;
+		font-family:"Agency FB";
+		font-size:20px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		cursor:pointer;
+	}
+	#categorias ul{
+		list-style-image:url(imagens/image014.png);
+	}
+	#categorias li{
+		text-align:left;
+		font-family:"Open Sans";
+		font-size:20px;
+		color:#5F523D;
+		line-height:40px;
+	}
+	
+	#categorias a:link{
+		text-decoration:none;
+		color:#5F523D;
+	}
+	#categorias li:hover{
+		text-decoration:underline;
+	}
+	#categorias a:visited{
+		color:#5F523D;
+	}
+	
+	/* Início footer */
+	#footer{
+		clear:both;
+		margin-top:300px;
+		width:620px;
+		height:81px;
+	}
+	#footerimg{
+		margin-left:10px;
+		width:620px;
+		height:81px;
+		background-image:url(imagens/image024.png);
+	}
+	#copyright{
+		margin-left:10px;
+		padding-top:0px;
+		font-family:"Open Sans";
+		font-style:italic;
+		font-size:12px;
+		color:#5F523D;
+	}
+
+	/* Formulário de contato */
+	.pagetit{
+		margin:40px 0px 0px 16px;
+		font-family:"Agency FB";
+		color:#FFF;
+		text-shadow:#5F523D 1px 1px;
+		text-align:left;
+	}
+	.contato{
+		width:522px;
+		margin:auto;
+	}
+	.contatocampos, .campomsg{
+		width:502px;
+		height:37px;
+		margin:10px 0px 0px 0px;
+		background-image:url(imagens/contato_field.png);
+		background-repeat:no-repeat;
+		background-color:transparent;
+		border:hidden;
+		padding:0px 0px 0px 20px;
+		font-family:"Open Sans";
+		font-size:15px;
+		font-style:italic;
+		color:#D6CCBE;
+	}
+	.campomsg{
+		background-image:url(imagens/contato_msg.png);
+		height:294px;
+		padding-top:10px;
+	}
+
+	/* Formulário de cadastro */
+
+	.formcadastro{
+		margin-left:15px;
+	}
